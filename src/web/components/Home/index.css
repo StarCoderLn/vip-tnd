@@ -1,0 +1,17 @@
+:root {
+  --fontColor: #fff;
+  --fontSize: 28px;
+}
+body {
+  --bgColor: #000;
+  color: var(--fontColor);
+  background: var(--bgColor);
+}
+h2 {
+  font-size: var(--fontSize);
+}
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}

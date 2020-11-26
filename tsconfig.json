@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "jsx": "react",
+    "esModuleInterop": true, // node 的时候用这个
+    "allowSyntheticDefaultImports": true, // react 用这个
+    "strict": true, // 启用所有严格类型检查选项
+    "typeRoots": [
+      "typings",
+      "./node_modules/@types"
+    ],
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["web/components/*"],
+      "@pages/*": ["web/pages/*"],
+      "@routes/*": ["web/routes/*"],
+      "@models/*": ["web/models/*"],
+      "@utils/*": ["web/utils/*"],
+      "@assets/*": ["web/assets/*"]
+    }
+  },
+  "include": [
+    "src",
+    "tests"
+  ]
+}

@@ -1,0 +1,60 @@
+[2020-11-13T11:26:30.223] [ERROR] cheese - AwilixResolutionError: Could not resolve 'infoService'.
+
+Resolution path: infoService
+    at resolve (D:\project\custom\vip-tnd\node_modules\awilix\src\container.ts:457:15)
+    at Object.get (D:\project\custom\vip-tnd\node_modules\awilix\src\container.ts:241:30)
+    at new InfoController (D:\project\custom\vip-tnd\src\server\routers\InfoController.ts:9:17)
+    at newClass (D:\project\custom\vip-tnd\node_modules\awilix\src\resolvers.ts:202:20)
+    at Object.resolve (D:\project\custom\vip-tnd\node_modules\awilix\src\resolvers.ts:470:14)
+    at Object.build (D:\project\custom\vip-tnd\node_modules\awilix\src\container.ts:541:48)
+    at memberInvoker (D:\project\custom\vip-tnd\node_modules\awilix-koa\src\invokers.ts:94:39)
+    at dispatch (D:\project\custom\vip-tnd\node_modules\koa-compose\index.js:42:32)
+    at D:\project\custom\vip-tnd\node_modules\@koa\router\lib\router.js:368:16
+    at dispatch (D:\project\custom\vip-tnd\node_modules\koa-compose\index.js:42:32)
+[2020-11-13T11:28:48.876] [ERROR] cheese - TypeError: ctx.render is not a function
+    at HomeController.<anonymous> (D:\project\custom\vip-tnd\src\server\routers\HomeController.ts:9:26)
+    at step (D:\project\custom\vip-tnd\src\server\routers\HomeController.ts:39:23)
+    at Object.next (D:\project\custom\vip-tnd\src\server\routers\HomeController.ts:20:53)
+    at D:\project\custom\vip-tnd\src\server\routers\HomeController.ts:14:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\project\custom\vip-tnd\src\server\routers\HomeController.ts:10:12)
+    at HomeController.actionHome (D:\project\custom\vip-tnd\src\server\routers\HomeController.ts:50:16)
+    at memberInvoker (D:\project\custom\vip-tnd\node_modules\awilix-koa\src\invokers.ts:101:39)
+    at dispatch (D:\project\custom\vip-tnd\node_modules\koa-compose\index.js:42:32)
+    at D:\project\custom\vip-tnd\node_modules\@koa\router\lib\router.js:368:16
+[2020-11-14T10:23:29.518] [ERROR] cheese - [Error: ENOENT: no such file or directory, open '/Users/linnan/Desktop/project/vip-tnd/src/server/views/home.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/linnan/Desktop/project/vip-tnd/src/server/views/home.html'
+}
+[2020-11-14T10:24:58.956] [ERROR] cheese - [Error: ENOENT: no such file or directory, open '/Users/linnan/Desktop/project/vip-tnd/src/server/views/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/linnan/Desktop/project/vip-tnd/src/server/views/index.html'
+}
+[2020-11-14T10:25:27.111] [ERROR] cheese - [Error: ENOENT: no such file or directory, open '/Users/linnan/Desktop/project/vip-tnd/src/server/views/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/linnan/Desktop/project/vip-tnd/src/server/views/index.html'
+}
+[2020-11-14T10:54:26.944] [ERROR] cheese - [Error: ENOENT: no such file or directory, open '/Users/linnan/Desktop/project/vip-tnd/src/server/views/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/linnan/Desktop/project/vip-tnd/src/server/views/index.html'
+}
+[2020-11-14T12:58:58.051] [ERROR] cheese - [Error: ENOENT: no such file or directory, open '/Users/linnan/Desktop/project/vip-tnd/src/server/views/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/linnan/Desktop/project/vip-tnd/src/server/views/index.html'
+}
+[2020-11-14T13:57:22.941] [ERROR] cheese - [Error: ENOENT: no such file or directory, open '/Users/linnan/Desktop/project/vip-tnd/src/server/views/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/linnan/Desktop/project/vip-tnd/src/server/views/index.html'
+}

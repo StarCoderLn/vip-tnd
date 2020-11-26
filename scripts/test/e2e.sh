@@ -1,0 +1,1 @@
+jest --detectOpenHandles tests/e2e/*.ts --coverage --reporters default jest-stare

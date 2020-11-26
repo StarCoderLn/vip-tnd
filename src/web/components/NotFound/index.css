@@ -1,0 +1,5 @@
+.not-found {
+  &.highlight {
+    color: #178fff;
+  }
+}

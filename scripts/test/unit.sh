@@ -1,0 +1,1 @@
+jest tests/unit/*.ts --coverage --reporters default jest-stare
